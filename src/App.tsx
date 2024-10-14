@@ -1,9 +1,15 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import ToDo from "./components/ToDo";
+import { ChakraProvider } from "@chakra-ui/react";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <ChakraProvider>
+        <ToDo />
+      </ChakraProvider>
+    </div>
+  );
 }
 
 export default App;
