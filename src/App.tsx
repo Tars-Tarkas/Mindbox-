@@ -1,13 +1,14 @@
 import "./App.css";
-import ToDo from "./components/ToDo";
-import { ChakraProvider } from "@chakra-ui/react";
+import React from "react";
+import TodoProvider from "./context/TodoContext";
+import Form from "./components/ToDoForm";
 
 function App() {
   return (
     <div className="App">
-      <ChakraProvider>
-        <ToDo />
-      </ChakraProvider>
+      <TodoProvider>
+        <Form />
+      </TodoProvider>
     </div>
   );
 }
