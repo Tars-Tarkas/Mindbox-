@@ -27,7 +27,9 @@ npm run test
 ```
 
 В проекте использовалось:
-_ ReactJS
-_ Typescript \* Ant Design
+
+- ReactJS
+- Typescript
+- Ant Design
 
 приятного просмотра!
