@@ -1,13 +1,14 @@
 import React, { useContext } from "react";
 import type { ToDoContextType } from "../types/todo";
 import { ToDoContext } from "../context/TodoContext";
-import AddToDo from "./AddToDo";
-import ToDos from "./ToDos";
+import AddToDo from "./AddTask";
+import ToDos from "./TaskList";
 import Filter from "./Filter";
 import { Card, Button, Flex, Typography } from "antd";
 const { Meta } = Card;
 const { Title } = Typography;
-export default function ToDoForm() {
+
+export default function TaskForm() {
   const { clearCompleted, filter } = useContext(ToDoContext) as ToDoContextType;
   return (
     <Flex justify="center">

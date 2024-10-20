@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskForm component TaskForm snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="ant-flex css-dev-only-do-not-override-1hpnbz2 ant-flex-justify-center"
+      >
+        <div
+          class="ant-card css-dev-only-do-not-override-1hpnbz2"
+          style="width: 640px; background-color: rgb(250, 250, 250);"
+        >
+          <div
+            class="ant-card-head"
+            style="text-align: center;"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                <h2
+                  class="ant-typography css-dev-only-do-not-override-1hpnbz2"
+                >
+                  todos
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <form
+              autocomplete="off"
+              class="ant-form ant-form-horizontal css-dev-only-do-not-override-1hpnbz2"
+              id="addToDo"
+            >
+              <div
+                class="ant-form-item css-dev-only-do-not-override-1hpnbz2"
+              >
+                <div
+                  class="ant-row ant-form-item-row css-dev-only-do-not-override-1hpnbz2"
+                >
+                  <div
+                    class="ant-col ant-form-item-control css-dev-only-do-not-override-1hpnbz2"
+                  >
+                    <div
+                      class="ant-form-item-control-input"
+                    >
+                      <div
+                        class="ant-form-item-control-input-content"
+                      >
+                        <input
+                          class="ant-input css-dev-only-do-not-override-1hpnbz2 ant-input-outlined"
+                          id="addToDo_text"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <ul
+              style="width: 100%; margin-bottom: 30px; list-style-type: none; margin-left: 0px; padding-left: 0px;"
+            >
+              <div
+                style="text-align: center;"
+              >
+                <span>
+                  not found to do
+                </span>
+              </div>
+            </ul>
+            <div
+              class="ant-card-meta"
+            >
+              <div
+                class="ant-card-meta-detail"
+              >
+                <div
+                  class="ant-card-meta-description"
+                >
+                  <div
+                    class="ant-flex css-dev-only-do-not-override-1hpnbz2 ant-flex-align-center ant-flex-justify-space-between"
+                  >
+                    <span>
+                      0
+                       items left
+                    </span>
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-1hpnbz2 ant-flex-justify-space-between"
+                      style="gap: 10px;"
+                    >
+                      <button
+                        class="ant-btn css-dev-only-do-not-override-1hpnbz2 ant-btn-default ant-btn-color-default ant-btn-variant-filled"
+                        disabled=""
+                        id="all"
+                        name="all"
+                        type="button"
+                      >
+                        <span>
+                          All
+                        </span>
+                      </button>
+                      <button
+                        class="ant-btn css-dev-only-do-not-override-1hpnbz2 ant-btn-default ant-btn-color-default ant-btn-variant-filled"
+                        disabled=""
+                        id="active"
+                        name="active"
+                        type="button"
+                      >
+                        <span>
+                          Active
+                        </span>
+                      </button>
+                      <button
+                        class="ant-btn css-dev-only-do-not-override-1hpnbz2 ant-btn-default ant-btn-color-default ant-btn-variant-filled"
+                        disabled=""
+                        id="completed"
+                        name="completed"
+                        type="button"
+                      >
+                        <span>
+                          Completed
+                        </span>
+                      </button>
+                    </div>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-1hpnbz2 ant-btn-default ant-btn-color-default ant-btn-variant-filled"
+                      disabled=""
+                      name="Clear Completed"
+                      type="button"
+                    >
+                      <span>
+                        Clear completed
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="ant-flex css-dev-only-do-not-override-1hpnbz2 ant-flex-justify-center"
+    >
+      <div
+        class="ant-card css-dev-only-do-not-override-1hpnbz2"
+        style="width: 640px; background-color: rgb(250, 250, 250);"
+      >
+        <div
+          class="ant-card-head"
+          style="text-align: center;"
+        >
+          <div
+            class="ant-card-head-wrapper"
+          >
+            <div
+              class="ant-card-head-title"
+            >
+              <h2
+                class="ant-typography css-dev-only-do-not-override-1hpnbz2"
+              >
+                todos
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-card-body"
+        >
+          <form
+            autocomplete="off"
+            class="ant-form ant-form-horizontal css-dev-only-do-not-override-1hpnbz2"
+            id="addToDo"
+          >
+            <div
+              class="ant-form-item css-dev-only-do-not-override-1hpnbz2"
+            >
+              <div
+                class="ant-row ant-form-item-row css-dev-only-do-not-override-1hpnbz2"
+              >
+                <div
+                  class="ant-col ant-form-item-control css-dev-only-do-not-override-1hpnbz2"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <input
+                        class="ant-input css-dev-only-do-not-override-1hpnbz2 ant-input-outlined"
+                        id="addToDo_text"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+          <ul
+            style="width: 100%; margin-bottom: 30px; list-style-type: none; margin-left: 0px; padding-left: 0px;"
+          >
+            <div
+              style="text-align: center;"
+            >
+              <span>
+                not found to do
+              </span>
+            </div>
+          </ul>
+          <div
+            class="ant-card-meta"
+          >
+            <div
+              class="ant-card-meta-detail"
+            >
+              <div
+                class="ant-card-meta-description"
+              >
+                <div
+                  class="ant-flex css-dev-only-do-not-override-1hpnbz2 ant-flex-align-center ant-flex-justify-space-between"
+                >
+                  <span>
+                    0
+                     items left
+                  </span>
+                  <div
+                    class="ant-flex css-dev-only-do-not-override-1hpnbz2 ant-flex-justify-space-between"
+                    style="gap: 10px;"
+                  >
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-1hpnbz2 ant-btn-default ant-btn-color-default ant-btn-variant-filled"
+                      disabled=""
+                      id="all"
+                      name="all"
+                      type="button"
+                    >
+                      <span>
+                        All
+                      </span>
+                    </button>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-1hpnbz2 ant-btn-default ant-btn-color-default ant-btn-variant-filled"
+                      disabled=""
+                      id="active"
+                      name="active"
+                      type="button"
+                    >
+                      <span>
+                        Active
+                      </span>
+                    </button>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-1hpnbz2 ant-btn-default ant-btn-color-default ant-btn-variant-filled"
+                      disabled=""
+                      id="completed"
+                      name="completed"
+                      type="button"
+                    >
+                      <span>
+                        Completed
+                      </span>
+                    </button>
+                  </div>
+                  <button
+                    class="ant-btn css-dev-only-do-not-override-1hpnbz2 ant-btn-default ant-btn-color-default ant-btn-variant-filled"
+                    disabled=""
+                    name="Clear Completed"
+                    type="button"
+                  >
+                    <span>
+                      Clear completed
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -8,7 +8,7 @@ type FieldType = {
   text?: string;
 };
 
-export default function AddToDo() {
+export default function AddTask() {
   const [form] = Form.useForm();
   const { addTodo } = useContext(ToDoContext) as ToDoContextType;
 
